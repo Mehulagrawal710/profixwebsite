@@ -1,0 +1,131 @@
+body{background-color:lightblue;}
+
+.logo{border: 1px solid black;
+  padding: 6px 2px 0 30px;
+margin: 6px 0 0 150px;}
+
+ul li {text-align: center;
+          font-family:Times New Roman;
+          display:inline;
+          padding-right: 40px;
+          padding-left: 25px;
+          }
+a{color: white;}
+a:hover {color:#ff0000;}
+
+h1.h1{text-align:center;
+		color: black ;	 
+    font-size:50px;
+          font-family:Felix Titling;
+          }   
+
+/*       
+pre{text-align: center;
+	color: #ffffff ;
+          font-family:Times New Roman;
+          }   */       
+/*
+h2{text-align: center;
+	color: #ffffff ;
+          font-family:Times New Roman;
+          }     
+*/
+.links{float:right;
+  font-family: Courier New;
+  border: 1px solid black;
+padding: 6px 2px 1px 2px;
+margin: 10px 100px 2px 6px;
+font-size:30px;}
+
+  .capt{border: 1px solid red;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+  	padding: 40px 0 40px 0;
+  	margin: 6px 0 6px 0;
+  	background: #ffffff url(images/stock-vector-vector-background-of-the-many-icons-on-the-topic-of-education-88169131.jpg)
+                               top left;
+    }        
+
+  .welcome{border: 1px solid black;
+    font-size:30px;
+  background-color: olive;
+  padding: 6px 2px 50px 20px;
+margin: 6px 100px 6px 100px;}
+
+ 
+ .ogc{border: 1px solid yellow;
+  color: white;
+  background-color: lightgreen;
+  font-size:30px;
+ padding: 6px 2px 6px 20px;
+margin: 6px 60px 6px 60px;}
+ 
+ .foot{border: 1px solid black;
+  text-align: center;
+  font-size:30px;
+  background-color: darkgreen;}
+
+.welcome img{float: right;
+          margin: 0 0 0 0;
+          padding:0 0 0 0;
+          height: 400px;}
+.ogc img{float: left;
+          margin: 0 6px 0 0;
+          padding:0 0 0 0;
+          height: 400px;
+}
+.clear{
+  clear: both;
+}
+
+img{border: 1px solid black;
+  padding: 2px 2px 2px 2px;
+margin: 6px 0 0 1px;}
+
+.facebook, .github, .twitter{
+background: url(images/fb.jpg);
+display: block;
+height: 40px;
+width: 40px;
+text-indent: -9999px;
+}
+.github{background:url(images/git.jpg);
+  background-position: -40px 0;}
+
+.twitter{background:url(images/twitter.jpg);
+  background-position: -80px 0;}
+
+
+
+
+
+.facebook:hover, .facebook:focus {
+background-position: 0 -40px;
+}
+
+.github:hover, .github:focus {
+background-position: 0 -40px;
+}
+
+.twitter:hover, .twitter:focus {
+background-position: 0 -40px;
+}
+
+.social{/*border: 1px solid black;*/
+         padding: 0 2px 0 2px;
+         margin: 0 800px 0 800px;
+     }
+
+.facebook{/*border: 1px solid black;*/
+          margin-left: 50px;}
+
+.github{/*border: 1px solid black;*/
+  float: right;
+  margin-right: 170px;
+margin-top: -40px;}
+
+.twitter{/*border: 1px solid black;*/
+  margin-right:70px;
+  float:right;
+margin-top: -40px}
